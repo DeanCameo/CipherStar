@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+    {%  include 'encrypt/sidebar.html' %}
+    <link rel="stylesheet" href="{% static 'encrypt/style.css' %}">
+    <style>
+        body{
+            background-color: rgb(27, 26, 26);
+        }
+
+        p{
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-family: Arial Black;
+
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+            height: 20%;
+            }
+
+        h1{
+            color: rgb(255, 255, 255);
+            font-family: Copperplate;
+            font-size: 250%;  
+            text-align: center;
+        }
+
+    </style>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <hr>
+    <h1>CipherStar</h1>
+    <p> In cryptography, encryption is the process of encoding information.</p>
+    <p> This process converts the original representation of the information, known as plaintext, into an alternative form known as ciphertext.</p>
+    <br>
+    <p> One of the earliest forms of encryption is symbol replacement, in around 1900 BC, Egypt.</p>
+    <p> Symbol replacement encryption is “non-standard,” which means that the symbols require a cipher or key to understand.</p>
+    <br>
+    <p> One of the most famous military encryption developments was the Caesar Cipher, which was a system in which a letter in normal text is shifted down a fixed number of positions down the alphabet to get the encoded letter. </p>
+    <p> A message encoded with this type of encryption could be decoded with the fixed number on the Caesar Cipher.</p>
+    <br>
+    <p> In the context of cryptography, encryption serves as a mechanism to ensure confidentiality.</p>
+    <p> Since data may be visible on the Internet, sensitive information such as passwords and personal communication may be exposed to potential interceptors.</p>
+    <br>
+    <p> The process of encrypting and decrypting messages involves keys. </p>
+    <p> The two main types of keys in cryptographic systems are symmetric-key and public-key, also known as asymmetric-key.</p>
+    <br>
+    <p> Many complex cryptographic algorithms often use simple modular arithmetic in their implementations.</p>
+    <img src="/static/encrypt/images/security.png" class="center">
+</body>
+</html>
